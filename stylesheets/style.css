@@ -1,0 +1,175 @@
+/* line 1, ../sass/style.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Column Classes */
+/* line 5, ../sass/style.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 8, ../sass/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 12, ../sass/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 17, ../sass/style.scss */
+.row {
+  width: 100%;
+  max-width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+}
+/* line 22, ../sass/style.scss */
+.row .row {
+  min-width: 0;
+}
+/* line 26, ../sass/style.scss */
+.row .columns.one, .row .column.one {
+  width: 5.61798%;
+}
+/* line 29, ../sass/style.scss */
+.row .columns.two, .row .column.two {
+  width: 13.48315%;
+}
+/* line 32, ../sass/style.scss */
+.row .columns.three, .row .column.three {
+  width: 21.34831%;
+}
+/* line 35, ../sass/style.scss */
+.row .columns.four, .row .column.four {
+  width: 29.21348%;
+}
+/* line 38, ../sass/style.scss */
+.row .columns.five, .row .column.five {
+  width: 37.07865%;
+}
+/* line 41, ../sass/style.scss */
+.row .columns.six, .row .column.six {
+  width: 44.94382%;
+}
+/* line 44, ../sass/style.scss */
+.row .columns.seven, .row .column.seven {
+  width: 52.80899%;
+}
+/* line 47, ../sass/style.scss */
+.row .columns.eight, .row .column.eight {
+  width: 60.67416%;
+}
+/* line 50, ../sass/style.scss */
+.row .columns.nine, .row .column.nine {
+  width: 68.53933%;
+}
+/* line 53, ../sass/style.scss */
+.row .columns.ten, .row .column.ten {
+  width: 76.40449%;
+}
+/* line 56, ../sass/style.scss */
+.row .columns.eleven, .row .column.eleven {
+  width: 84.26966%;
+}
+/* line 59, ../sass/style.scss */
+.row .columns.twelve, .row .column.twelve {
+  width: 92.13483%;
+}
+/* line 62, ../sass/style.scss */
+.row .columns.thirteen, .row .column.thirteen {
+  width: 100%;
+}
+/* line 65, ../sass/style.scss */
+.row .columns.one-third, .row .column.one-third {
+  width: 31.83523%;
+}
+/* line 68, ../sass/style.scss */
+.row .columns.two-thirds, .row .column.two-thirds {
+  width: 65.91765%;
+}
+/* line 71, ../sass/style.scss */
+.row .columns.one-fourth, .row .column.one-fourth {
+  width: 23.31460%;
+}
+/* line 74, ../sass/style.scss */
+.row .columns.two-fourth, .row .column.two-fourth {
+  width: 48.87640%;
+}
+/* line 77, ../sass/style.scss */
+.row .columns.three-fourth, .row .column.three-fourth {
+  width: 74.43818%;
+}
+/* line 80, ../sass/style.scss */
+.row .columns.one-half, .row .column.one-half {
+  width: 48.87640%;
+}
+
+/* line 86, ../sass/style.scss */
+.column, .columns {
+  margin-left: 2.24719%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 92, ../sass/style.scss */
+.column.showcase, .columns.showcase {
+  background: #e9e9e9;
+  min-height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #c9c9c9;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 105, ../sass/style.scss */
+.column:first-child, .columns:first-child {
+  margin-left: 0;
+}
+
+/* line 110, ../sass/style.scss */
+.phi {
+  width: 100%;
+  max-width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+/* line 117, ../sass/style.scss */
+.alpha, .omega {
+  float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 123, ../sass/style.scss */
+.alpha.showcase, .omega.showcase {
+  background: #e9e9e9;
+  min-height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #c9c9c9;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 136, ../sass/style.scss */
+.alpha {
+  width: 38.196875%;
+}
+
+/* line 140, ../sass/style.scss */
+.omega {
+  width: 61.803125%;
+}

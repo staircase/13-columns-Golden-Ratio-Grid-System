@@ -11,6 +11,214 @@ and open the template in the editor.
         <link href="stylesheets/style.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
-        
+        <div class="wrapper">
+            <div class="phi">
+                <div class="alpha">
+                    <p>Grid fundamentals</p>
+                </div>
+                <div class="omega">
+                    <h1>Basic Grid</h1>
+                    <p>If you look at the example below you can see how the rows and columns come together to build structure. Each row of columns are inside of a div that has been assigned the row class. Thanks to Sass, the margins, widths, and document size are all variables that you can change as needed. Simply edit the var/-settings.scss file and change the values of the variables to create your own grid.</p>
+                    <div class="phi">
+                        <div class="alpha showcase">Alpha</div>
+                        <div class="omega showcase">Omega</div>  
+                    </div>
+                    <div class="row">
+                        <div class="thirteen columns showcase">13</div>
+                    </div>
+                    <div class="row">
+                        <div class="twelve columns showcase">12</div>
+                        <div class="one columns showcase">1</div>
+                    </div>
+                    <div class="row">
+                        <div class="eleven columns showcase">11</div>
+                        <div class="two columns showcase">2</div>
+                    </div>
+                    <div class="row">
+                        <div class="ten columns showcase">10</div>
+                        <div class="three columns showcase">3</div>
+                    </div>
+                    <div class="row">
+                        <div class="nine columns showcase">9</div>
+                        <div class="four columns showcase">4</div>
+                    </div>
+                    <div class="row">
+                        <div class="eight columns showcase">8</div>
+                        <div class="five columns showcase">5</div>
+                    </div>
+                    <div class="row">
+                        <div class="seven columns showcase">7</div>
+                        <div class="six columns showcase">6</div>
+                    </div>
+                    <div class="row">
+                        <div class="six columns showcase">6</div>
+                        <div class="seven columns showcase">7</div>
+                    </div>
+                    <div class="row">
+                        <div class="five columns showcase">5</div>
+                        <div class="eight columns showcase">8</div>
+                    </div>
+                    <div class="row">
+                        <div class="four columns showcase">4</div>
+                        <div class="nine columns showcase">9</div>
+                    </div>
+                    <div class="row">
+                        <div class="three columns showcase">3</div>
+                        <div class="ten columns showcase">9</div>
+                    </div>
+                    <div class="row">
+                        <div class="two columns showcase">2</div>
+                        <div class="eleven columns showcase">11</div>
+                    </div>
+                    <div class="row">
+                        <div class="one columns showcase">1</div>
+                        <div class="twelve columns showcase">12</div>
+                    </div>
+                    <h1>Custom Grid</h1>
+                    <div class="row">
+                        <div class="thirteen columns showcase">100%</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-half columns showcase">1/2</div>
+                        <div class="one-half columns showcase">1/2</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-third columns showcase">1/3</div>
+                        <div class="one-third columns showcase">1/3</div>
+                        <div class="one-third columns showcase">1/3</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-third columns showcase">1/3</div>
+                        <div class="two-thirds columns showcase">2/3</div>
+                    </div>
+                    <div class="row">
+                        <div class="two-thirds columns showcase">2/3</div>
+                        <div class="one-third columns showcase">1/3</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="two-fourth columns showcase">2/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="two-fourth columns showcase">2/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="three-fourth columns showcase">3/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="three-fourth columns showcase">3/4</div>
+                    </div>
+                    <h1>Centered</h1>
+                    <div class="row">
+                        <div class="thirteen columns showcase">13</div>
+                        <div class="twelve columns showcase centered">12</div>
+                        <div class="eleven columns showcase centered">11</div>
+                        <div class="ten columns showcase centered">10</div>
+                        <div class="nine columns showcase centered">9</div>
+                        <div class="eight columns showcase centered">8</div>
+                        <div class="seven columns showcase centered">7</div>
+                        <div class="six columns showcase centered">6</div>
+                        <div class="five columns showcase centered">5</div>
+                        <div class="four columns showcase centered">4</div>
+                        <div class="three columns showcase centered">3</div>
+                        <div class="two columns showcase centered">2</div>
+                        <div class="one columns showcase centered">1</div>
+                    </div>
+                    <h1>Pushing Columns</h1>
+                    <p>Push and pull columns allow you to create additional space between columns in a row. Say you have a chunk of text, lets call it a blog post, that only needs to occupy six columns; and your sidebar is only three columns wide, but it hugs the right side of the document in your comp… You can push that sidebar over to the right using .push-three. Push/pull columns are also nestable, just like the rest of the grid.</p>
+                    <div class="row">
+                        <div class="thirteen columns showcase">13</div>
+                    </div>
+                    <div class="row">
+                        <div class="push-one-fourth-left one-fourth columns showcase">1/4</div>
+                        <div class="two-fourth columns showcase">2/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="push-one-fourth-center two-fourth columns showcase">2/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="push-one-fourth-right two-fourth columns showcase">2/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="push-one-fourth-left one-fourth columns showcase">1/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="push-one-fourth-center one-fourth columns showcase">1/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="push-one-fourth-center one-fourth columns showcase">1/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="push-one-fourth-right one-fourth columns showcase">1/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-fourth columns showcase">1/4</div>
+                        <div class="push-two-fourth-center one-fourth columns showcase">1/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="push-one-third-left one-third columns showcase">1/3</div>
+                        <div class="one-third columns showcase">1/3</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-third columns showcase">1/3</div>
+                        <div class="push-one-third-center one-third columns showcase">1/3</div>
+                    </div>
+                    <div class="row">
+                        <div class="one-third columns showcase">1/3</div>
+                        <div class="push-one-third-right one-third columns showcase">1/3</div>
+                    </div>
+                    <div class="row">
+                        <div class="push-one-fourth-left three-fourth columns showcase">3/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="push-one-fourth-right three-fourth columns showcase">3/4</div>
+                    </div>
+                    <div class="row">
+                        <div class="push-one-half-left one-half columns showcase">1/2</div>
+                    </div>
+                    <div class="row">
+                        <div class="push-one-half-right one-half columns showcase">1/2</div>
+                    </div>
+                    <h1>Tiles</h1>
+                    <ul class="two-up tiles">
+                        <li>Two Up</li>
+                        <li>Two Up</li>
+                        <li>Two Up</li>
+                        <li>Two Up</li>
+                    </ul>
+                    <ul class="four_up tiles">
+                        <li>Four Up</li>
+                        <li>Four Up</li>
+                        <li>Four Up</li>
+                        <li>Four Up</li> 
+                        <li>Four Up</li>
+                        <li>Four Up</li>
+                        <li>Four Up</li>
+                        <li>Four Up</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
